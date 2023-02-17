@@ -1787,6 +1787,11 @@
   resolved "https://registry.npmjs.org/@react-native-firebase/database/-/database-17.0.0.tgz"
   integrity sha512-CIQj4hm1QwNWJKsq34k93bWvCxeJVZFeadpXyZ5ggJ89ifoaiCJp0lz9YMvisdp7NVNu9f/K9l3jC6WR5pyIGA==
 
+"@react-native-firebase/firestore@^17.1.0":
+  version "17.1.0"
+  resolved "https://registry.npmjs.org/@react-native-firebase/firestore/-/firestore-17.1.0.tgz"
+  integrity sha512-RSTjRevPkXaepuyJgwsAxMcTEDLu/8DnjL8qkNEBj/TeNY4Fkl1Dk722IiggxDrJdTC4WsA3U1C+9iV5WaaD9g==
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@react-native/assets/-/assets-1.0.0.tgz"
@@ -6222,6 +6227,11 @@ react-freeze@^1.0.0:
   resolved "https://registry.npmjs.org/react-freeze/-/react-freeze-1.0.3.tgz"
   integrity sha512-ZnXwLQnGzrDpHBHiC56TXFXvmolPeMjTn1UOm610M4EXGzbEDR7oOIyS2ZiItgbs6eZc4oU/a0hpk8PrcKvv5g==
 
+react-hook-form@^7.43.1:
+  version "7.43.1"
+  resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.43.1.tgz"
+  integrity sha512-+s3+s8LLytRMriwwuSqeLStVjRXFGxgjjx2jED7Z+wz1J/88vpxieRQGvJVvzrzVxshZ0BRuocFERb779m2kNg==
+
 "react-is@^16.12.0 || ^17.0.0 || ^18.0.0", react-is@^18.0.0, react-is@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
@@ -6295,6 +6305,16 @@ react-native-paper-dropdown@^1.0.7:
   resolved "https://registry.npmjs.org/react-native-paper-dropdown/-/react-native-paper-dropdown-1.0.7.tgz"
   integrity sha512-St0rZFw5sC7mbXtFCOGsyEa0fIBaG6Cfz78RsjFNzTj+rKd1i9qlDY2O7eOa2zAUEnFlL+C7FXdXUY9RUNELNw==
 
+react-native-paper-form-builder@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/react-native-paper-form-builder/-/react-native-paper-form-builder-2.1.2.tgz"
+  integrity sha512-BhnaVT51cTeNpRfUMNLRnY27tEgik4qZGHYtTctOPSK/E+2Oh3mdnDuVDOlVVkTurdjFMfUPehw9787XFRWyAg==
+
+react-native-paper-select@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/react-native-paper-select/-/react-native-paper-select-0.4.0.tgz"
+  integrity sha512-P/jTk7+38M7t/CGMJF2pMHW0gigHJEsyMNesQHWbE793Y2M9bZBx0qr27dLnzkmCFW66xPHVZQmj3mQJEKgWng==
+
 react-native-paper@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/react-native-paper/-/react-native-paper-5.2.0.tgz"
@@ -6329,6 +6349,11 @@ react-native-screens@^3.19.0:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
+
+react-native-searchable-dropdown@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.npmjs.org/react-native-searchable-dropdown/-/react-native-searchable-dropdown-1.1.3.tgz"
+  integrity sha512-ip6YwjKED/h27oRQGN3f62usFMj5IfS6tr/zZWfQItCAV/XAq5E9P0Exvg/86gSlcGJnnZdoixK+PS1sElxcyA==
 
 react-native-tab-view@^3.3.4:
   version "3.3.4"

@@ -4,8 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { LoginScreen } from "../screens/login/login.screen";
 import { HomesScreen } from "../screens/home/home.screen";
-import { RegisterScreen } from "../screens/register/register.screen";
-import { Register2Screen } from "../screens/register/register2.screen";
+import { UserInfoScreen } from "../screens/register/userInfo.screen";
+import { EmailPasswordScreen } from "../screens/register/emailPassword.screen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createMaterialTopTabNavigator();
@@ -14,9 +14,9 @@ export const AuthNavigator = () => {
 
     const RegisterTab = () => {
         return (
-            <Tab.Navigator initialRouteName="Register" screenOptions={{ headerShown: false, swipeEnabled: false }} tabPress={false}>
-                <Tab.Screen name="Register" component={RegisterScreen} />
-                <Tab.Screen name="Register2" component={Register2Screen} />
+            <Tab.Navigator initialRouteName="User Info" screenOptions={{ headerShown: false, swipeEnabled: false }} tabPress={false}>
+                <Tab.Screen name="User Info" component={UserInfoScreen} />
+                <Tab.Screen name="Email & Password" component={EmailPasswordScreen} />
             </Tab.Navigator >
         )
     }

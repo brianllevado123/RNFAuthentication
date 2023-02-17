@@ -1,20 +1,12 @@
 import { StyleSheet } from "react-native";
 
 export const registerStyle = StyleSheet.create({
-    content: {
+    containerStyle: {
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
     },
-    formContainer: {
-        width: "80%",
+    scrollViewStyle: {
+        flex: 1,
+        padding: 15,
+        justifyContent: 'center',
     },
-    logo: {
-        resizeMode: 'contain',
-        width: '100%',
-        height: 100,
-    },
-    textInput: {
-        marginBottom: 5,
-    }
 })

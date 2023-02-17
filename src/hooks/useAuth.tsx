@@ -7,6 +7,7 @@ export const useAuth = () => {
     auth().onAuthStateChanged((user) => {
         if (user) {
             setSignedIn(true)
+            const userUid = user.uid;
         } else {
             setSignedIn(false)
         }

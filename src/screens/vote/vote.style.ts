@@ -1,11 +1,12 @@
 import { StyleSheet } from "react-native";
 
 export const voteStyle = StyleSheet.create({
-    content: {
+    containerStyle: {
         flex: 1,
-        alignItems: 'center'
     },
-    formContainer: {
-        width: '90%'
-    }
+    scrollViewStyle: {
+        flex: 1,
+        padding: 15,
+        justifyContent: 'center',
+    },
 })

@@ -27,7 +27,6 @@ export const Register2Screen = (props: RegisterScreenProps) => {
     const startYear = new Date().getFullYear() - 100;
     const endYear = new Date().getFullYear();
     const userInfo = props.route.params;
-    console.log(userInfo);
 
     const userSignUp = (name, address, phone, email, password) => {
         auth()

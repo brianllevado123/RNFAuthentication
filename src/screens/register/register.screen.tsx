@@ -6,7 +6,7 @@ import { registerStyle } from './register.style';
 import { registerForm } from './register.form';
 import DropDown from "react-native-paper-dropdown";
 import { DatePickerInput } from 'react-native-paper-dates';
-import { format } from 'date-fns'
+import { format } from 'date-fns';
 
 interface RegisterScreenProps {
     navigation: any;

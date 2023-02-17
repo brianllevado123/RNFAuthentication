@@ -10,10 +10,6 @@ interface HomesScreenProps {
 
 export const HomesScreen = (props: HomesScreenProps) => {
 
-    auth().onAuthStateChanged((user) => {
-        console.log(user);
-    })
-
     return (
         <SafeAreaView>
             <View>
